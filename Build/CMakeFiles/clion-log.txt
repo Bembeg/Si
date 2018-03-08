@@ -1,0 +1,4 @@
+/home/b/Clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/b/Documents/Dropbox/Programování/Geant4/Si
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/b/Documents/Dropbox/Programování/Geant4/Si/Build

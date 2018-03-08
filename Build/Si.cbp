@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Si"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Geant4-build\;CMake Files\..\..\Geant4-build\Modules\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Si">
+				<Option output="/home/b/Geant4/Si/Build/Si" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4MULTITHREADED"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_XT"/>
+					<Add option="-DG4VIS_USE_RAYTRACERX"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4UI_USE_XM"/>
+					<Add option="-DG4VIS_USE_OPENGLXM"/>
+					<Add option="-DG4VIS_USE_OPENGLX"/>
+					<Add option="-DG4VIS_USE_OI"/>
+					<Add option="-DG4VIS_USE_OIX"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/g4tools/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/accumulables/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/csv/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/hntools/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/root/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/xml/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/detector/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/digits/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/hits/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/scorer/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/error_propagation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/event/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/externals/clhep/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/g3tog4/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/biasing/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/divisions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/magneticfield/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/navigation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/solids/Boolean/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/solids/CSG/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/solids/specific/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/volumes/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/HEPGeometry/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/HEPNumerics/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/HEPRandom/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/graphics_reps/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/intercoms/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/interfaces/GAG/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/interfaces/basic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/interfaces/common/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/materials/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/parameterisations/gflash/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/adjoint/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/bosons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/hadrons/barions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/hadrons/ions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/hadrons/mesons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/leptons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/shortlived/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/persistency/ascii/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/persistency/gdml/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/persistency/mctruth/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/builders/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/decay/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/electromagnetic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/factory/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/gamma_lepto_nuclear/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/hadron_elastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/hadron_inelastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/ions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/limiters/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/stopping/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/lists/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/biasing/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/biasing/generic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/biasing/importance/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/cuts/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/decay/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/adjoint/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/processes/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/models/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/molecules/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/molecules/types/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/highenergy/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/lowenergy/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/muons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/pii/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/polarisation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/standard/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/xrays/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/cross_sections/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/abla/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/abrasion/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/binary_cascade/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/cascade/cascade/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/coherent_elastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/ablation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/evaporation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/fermi_breakup/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/fission/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/gem_evaporation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/handler/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/multifragmentation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/photon_evaporation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/em_dissociation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/fission/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/im_r_matrix/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/inclxx/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/inclxx/incl_physics/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/inclxx/interface/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/lend/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/lepto_nuclear/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/particle_hp/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/diffraction/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/hadronization/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/qgsm/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/pre_equilibrium/exciton_model/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/qmd/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/radioactive_decay/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/quasi_elastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/rpg/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/theo_high_energy/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/processes/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/stopping/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/optical/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/phonon/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/parameterisation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/scoring/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/transportation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/readout/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/run/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/track/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/tracking/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/FukuiRenderer/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/HepRep/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/RayTracer/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/Tree/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/VRML/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/XXX/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/externals/gl2ps/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/gMocren/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/modeling/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/OpenGL/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/OpenInventor/include"/>
+					<Add directory="/usr/include/Geant4"/>
+					<Add directory="/home/b/Geant4/Si/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 Si"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Si/fast">
+				<Option output="/home/b/Geant4/Si/Build/Si" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/b/Geant4/Si/Build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4MULTITHREADED"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_XT"/>
+					<Add option="-DG4VIS_USE_RAYTRACERX"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4UI_USE_XM"/>
+					<Add option="-DG4VIS_USE_OPENGLXM"/>
+					<Add option="-DG4VIS_USE_OPENGLX"/>
+					<Add option="-DG4VIS_USE_OI"/>
+					<Add option="-DG4VIS_USE_OIX"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/g4tools/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/accumulables/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/csv/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/hntools/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/root/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/analysis/xml/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/detector/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/digits/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/hits/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/scorer/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/digits_hits/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/error_propagation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/event/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/externals/clhep/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/g3tog4/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/biasing/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/divisions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/magneticfield/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/navigation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/solids/Boolean/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/solids/CSG/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/solids/specific/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/geometry/volumes/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/HEPGeometry/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/HEPNumerics/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/HEPRandom/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/global/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/graphics_reps/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/intercoms/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/interfaces/GAG/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/interfaces/basic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/interfaces/common/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/materials/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/parameterisations/gflash/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/adjoint/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/bosons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/hadrons/barions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/hadrons/ions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/hadrons/mesons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/leptons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/shortlived/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/particles/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/persistency/ascii/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/persistency/gdml/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/persistency/mctruth/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/builders/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/decay/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/electromagnetic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/factory/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/gamma_lepto_nuclear/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/hadron_elastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/hadron_inelastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/ions/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/limiters/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/constructors/stopping/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/lists/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/physics_lists/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/biasing/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/biasing/generic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/biasing/importance/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/cuts/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/decay/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/adjoint/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/processes/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/models/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/molecules/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/dna/molecules/types/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/highenergy/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/lowenergy/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/muons/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/pii/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/polarisation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/standard/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/electromagnetic/xrays/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/cross_sections/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/abla/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/abrasion/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/binary_cascade/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/cascade/cascade/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/coherent_elastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/ablation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/evaporation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/fermi_breakup/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/fission/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/gem_evaporation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/handler/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/multifragmentation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/photon_evaporation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/de_excitation/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/em_dissociation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/fission/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/im_r_matrix/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/inclxx/utils/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/inclxx/incl_physics/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/inclxx/interface/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/lend/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/lepto_nuclear/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/particle_hp/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/diffraction/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/hadronization/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/parton_string/qgsm/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/pre_equilibrium/exciton_model/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/qmd/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/radioactive_decay/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/quasi_elastic/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/rpg/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/theo_high_energy/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/models/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/processes/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/stopping/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/hadronic/util/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/optical/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/phonon/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/parameterisation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/scoring/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/processes/transportation/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/readout/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/run/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/track/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/tracking/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/FukuiRenderer/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/HepRep/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/RayTracer/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/Tree/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/VRML/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/XXX/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/externals/gl2ps/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/gMocren/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/management/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/modeling/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/OpenGL/include"/>
+					<Add directory="/home/b/Downloads/geant4.10.03.p01/source/visualization/OpenInventor/include"/>
+					<Add directory="/usr/include/Geant4"/>
+					<Add directory="/home/b/Geant4/Si/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 Si/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/b/Geant4/Si/Build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/b/Geant4/Si/Si.cc">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/include/ActionInitialization.hh">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/include/Analysis.hh">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/include/DetectorConstruction.hh">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/include/EventAction.hh">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/include/PrimaryGeneratorAction.hh">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/include/RunAction.hh">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/include/SteppingAction.hh">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/src/ActionInitialization.cc">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/src/DetectorConstruction.cc">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/src/EventAction.cc">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/src/PrimaryGeneratorAction.cc">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/src/RunAction.cc">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/src/SteppingAction.cc">
+			<Option target="Si"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/init_vis.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/vis.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/gui.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/loop1.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/loop2.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../Geant4-build/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Geant4-build\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../Geant4-build/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\Geant4-build\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../Geant4-build/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\Geant4-build\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../Geant4-build/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\Geant4-build\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../Geant4-build/UseGeant4_internal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Geant4-build\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../Geant4-build/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\Geant4-build\Modules\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../Geant4-build/Modules/CMakeMacroParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\Geant4-build\Modules\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/b/Geant4/Si/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

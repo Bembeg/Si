@@ -1,0 +1,7 @@
+/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/install.dir
+/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/list_install_components.dir
+/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/rebuild_cache.dir
+/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/install/strip.dir
+/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/install/local.dir
+/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir
+/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/edit_cache.dir
