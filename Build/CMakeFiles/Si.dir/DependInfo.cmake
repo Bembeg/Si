@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/Si.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/Si.cc.o"
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/src/ActionInitialization.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/src/ActionInitialization.cc.o"
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/src/DetectorConstruction.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/src/DetectorConstruction.cc.o"
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/src/EventAction.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/src/EventAction.cc.o"
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/src/PhysicsList.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/src/PhysicsList.cc.o"
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/src/PrimaryGeneratorAction.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o"
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/src/RunAction.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/src/RunAction.cc.o"
-  "/home/b/Documents/Dropbox/Programování/Geant4/Si/src/SteppingAction.cc" "/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/src/SteppingAction.cc.o"
+  "/home/b/Git/Si/Si.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/Si.cc.o"
+  "/home/b/Git/Si/src/ActionInitialization.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/src/ActionInitialization.cc.o"
+  "/home/b/Git/Si/src/DetectorConstruction.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/src/DetectorConstruction.cc.o"
+  "/home/b/Git/Si/src/EventAction.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/src/EventAction.cc.o"
+  "/home/b/Git/Si/src/PhysicsList.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/src/PhysicsList.cc.o"
+  "/home/b/Git/Si/src/PrimaryGeneratorAction.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o"
+  "/home/b/Git/Si/src/RunAction.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/src/RunAction.cc.o"
+  "/home/b/Git/Si/src/SteppingAction.cc" "/home/b/Git/Si/Build/CMakeFiles/Si.dir/src/SteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,6 +34,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4_STORE_TRAJECTORY"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NO_DEBUG"
   "QT_OPENGL_LIB"
   "QT_PRINTSUPPORT_LIB"
   "QT_WIDGETS_LIB"

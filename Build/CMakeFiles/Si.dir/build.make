@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/b/Documents/Dropbox/Programování/Geant4/Si
+CMAKE_SOURCE_DIR = /home/b/Git/Si
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/b/Documents/Dropbox/Programování/Geant4/Si/Build
+CMAKE_BINARY_DIR = /home/b/Git/Si/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Si.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Si.dir/flags.make
 
 CMakeFiles/Si.dir/Si.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/Si.cc.o: ../Si.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Si.dir/Si.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/Si.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/Si.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Si.dir/Si.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/Si.cc.o -c /home/b/Git/Si/Si.cc
 
 CMakeFiles/Si.dir/Si.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/Si.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/Si.cc > CMakeFiles/Si.dir/Si.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/Si.cc > CMakeFiles/Si.dir/Si.cc.i
 
 CMakeFiles/Si.dir/Si.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/Si.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/Si.cc -o CMakeFiles/Si.dir/Si.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/Si.cc -o CMakeFiles/Si.dir/Si.cc.s
 
 CMakeFiles/Si.dir/Si.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Si.dir/Si.cc.o.provides.build: CMakeFiles/Si.dir/Si.cc.o
 
 CMakeFiles/Si.dir/src/RunAction.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/src/RunAction.cc.o: ../src/RunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Si.dir/src/RunAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/RunAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Si.dir/src/RunAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/RunAction.cc.o -c /home/b/Git/Si/src/RunAction.cc
 
 CMakeFiles/Si.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/src/RunAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/src/RunAction.cc > CMakeFiles/Si.dir/src/RunAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/src/RunAction.cc > CMakeFiles/Si.dir/src/RunAction.cc.i
 
 CMakeFiles/Si.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/src/RunAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/src/RunAction.cc -o CMakeFiles/Si.dir/src/RunAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/src/RunAction.cc -o CMakeFiles/Si.dir/src/RunAction.cc.s
 
 CMakeFiles/Si.dir/src/RunAction.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Si.dir/src/RunAction.cc.o.provides.build: CMakeFiles/Si.dir/src/RunAc
 
 CMakeFiles/Si.dir/src/ActionInitialization.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/src/ActionInitialization.cc.o: ../src/ActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Si.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/ActionInitialization.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Si.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/ActionInitialization.cc.o -c /home/b/Git/Si/src/ActionInitialization.cc
 
 CMakeFiles/Si.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/src/ActionInitialization.cc > CMakeFiles/Si.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/src/ActionInitialization.cc > CMakeFiles/Si.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/Si.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/src/ActionInitialization.cc -o CMakeFiles/Si.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/src/ActionInitialization.cc -o CMakeFiles/Si.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/Si.dir/src/ActionInitialization.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Si.dir/src/ActionInitialization.cc.o.provides.build: CMakeFiles/Si.di
 
 CMakeFiles/Si.dir/src/EventAction.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/src/EventAction.cc.o: ../src/EventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Si.dir/src/EventAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/EventAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Si.dir/src/EventAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/EventAction.cc.o -c /home/b/Git/Si/src/EventAction.cc
 
 CMakeFiles/Si.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/src/EventAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/src/EventAction.cc > CMakeFiles/Si.dir/src/EventAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/src/EventAction.cc > CMakeFiles/Si.dir/src/EventAction.cc.i
 
 CMakeFiles/Si.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/src/EventAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/src/EventAction.cc -o CMakeFiles/Si.dir/src/EventAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/src/EventAction.cc -o CMakeFiles/Si.dir/src/EventAction.cc.s
 
 CMakeFiles/Si.dir/src/EventAction.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Si.dir/src/EventAction.cc.o.provides.build: CMakeFiles/Si.dir/src/Eve
 
 CMakeFiles/Si.dir/src/SteppingAction.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/src/SteppingAction.cc.o: ../src/SteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Si.dir/src/SteppingAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/SteppingAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/src/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Si.dir/src/SteppingAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/SteppingAction.cc.o -c /home/b/Git/Si/src/SteppingAction.cc
 
 CMakeFiles/Si.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/src/SteppingAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/src/SteppingAction.cc > CMakeFiles/Si.dir/src/SteppingAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/src/SteppingAction.cc > CMakeFiles/Si.dir/src/SteppingAction.cc.i
 
 CMakeFiles/Si.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/src/SteppingAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/src/SteppingAction.cc -o CMakeFiles/Si.dir/src/SteppingAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/src/SteppingAction.cc -o CMakeFiles/Si.dir/src/SteppingAction.cc.s
 
 CMakeFiles/Si.dir/src/SteppingAction.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Si.dir/src/SteppingAction.cc.o.provides.build: CMakeFiles/Si.dir/src/
 
 CMakeFiles/Si.dir/src/PhysicsList.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/src/PhysicsList.cc.o: ../src/PhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Si.dir/src/PhysicsList.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/PhysicsList.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Si.dir/src/PhysicsList.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/PhysicsList.cc.o -c /home/b/Git/Si/src/PhysicsList.cc
 
 CMakeFiles/Si.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/src/PhysicsList.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/src/PhysicsList.cc > CMakeFiles/Si.dir/src/PhysicsList.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/src/PhysicsList.cc > CMakeFiles/Si.dir/src/PhysicsList.cc.i
 
 CMakeFiles/Si.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/src/PhysicsList.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/src/PhysicsList.cc -o CMakeFiles/Si.dir/src/PhysicsList.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/src/PhysicsList.cc -o CMakeFiles/Si.dir/src/PhysicsList.cc.s
 
 CMakeFiles/Si.dir/src/PhysicsList.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Si.dir/src/PhysicsList.cc.o.provides.build: CMakeFiles/Si.dir/src/Phy
 
 CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o -c /home/b/Git/Si/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/src/PrimaryGeneratorAction.cc > CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/src/PrimaryGeneratorAction.cc > CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/src/PrimaryGeneratorAction.cc -o CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/src/PrimaryGeneratorAction.cc -o CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Si.dir/src/PrimaryGeneratorAction.cc.o.provides.build: CMakeFiles/Si.
 
 CMakeFiles/Si.dir/src/DetectorConstruction.cc.o: CMakeFiles/Si.dir/flags.make
 CMakeFiles/Si.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Si.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/DetectorConstruction.cc.o -c /home/b/Documents/Dropbox/Programování/Geant4/Si/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Si.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Si.dir/src/DetectorConstruction.cc.o -c /home/b/Git/Si/src/DetectorConstruction.cc
 
 CMakeFiles/Si.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Si.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Documents/Dropbox/Programování/Geant4/Si/src/DetectorConstruction.cc > CMakeFiles/Si.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/b/Git/Si/src/DetectorConstruction.cc > CMakeFiles/Si.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/Si.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Si.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Documents/Dropbox/Programování/Geant4/Si/src/DetectorConstruction.cc -o CMakeFiles/Si.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/b/Git/Si/src/DetectorConstruction.cc -o CMakeFiles/Si.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/Si.dir/src/DetectorConstruction.cc.o.requires:
 
@@ -320,7 +320,7 @@ Si: /usr/local/lib/libG4intercoms.so
 Si: /usr/local/lib/libG4global.so
 Si: /usr/local/lib/libCLHEP.so
 Si: CMakeFiles/Si.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Si"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/b/Git/Si/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Si"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Si.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -344,6 +344,6 @@ CMakeFiles/Si.dir/clean:
 .PHONY : CMakeFiles/Si.dir/clean
 
 CMakeFiles/Si.dir/depend:
-	cd /home/b/Documents/Dropbox/Programování/Geant4/Si/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/b/Documents/Dropbox/Programování/Geant4/Si /home/b/Documents/Dropbox/Programování/Geant4/Si /home/b/Documents/Dropbox/Programování/Geant4/Si/Build /home/b/Documents/Dropbox/Programování/Geant4/Si/Build /home/b/Documents/Dropbox/Programování/Geant4/Si/Build/CMakeFiles/Si.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/b/Git/Si/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/b/Git/Si /home/b/Git/Si /home/b/Git/Si/Build /home/b/Git/Si/Build /home/b/Git/Si/Build/CMakeFiles/Si.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Si.dir/depend
 
