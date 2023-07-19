@@ -1,4 +1,0 @@
-/run/printProgress 100
-/run/beamOn 15
-
-/control/shell cp out256x256.txt data_pi/out_{count}.txt

@@ -1,7 +1,0 @@
-/home/b/Git/Si/Build/CMakeFiles/install.dir
-/home/b/Git/Si/Build/CMakeFiles/list_install_components.dir
-/home/b/Git/Si/Build/CMakeFiles/rebuild_cache.dir
-/home/b/Git/Si/Build/CMakeFiles/install/strip.dir
-/home/b/Git/Si/Build/CMakeFiles/install/local.dir
-/home/b/Git/Si/Build/CMakeFiles/Si.dir
-/home/b/Git/Si/Build/CMakeFiles/edit_cache.dir

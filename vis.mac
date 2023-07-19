@@ -1,5 +1,7 @@
 
-/vis/open OGL 1366x768-0+0
+#/vis/open OGL 1366x768-0+0
+/vis/open OGLIQt 1920x1080
+
 
 /vis/viewer/set/autoRefresh false
 /vis/verbose errors
