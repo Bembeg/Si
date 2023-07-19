@@ -29,17 +29,20 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
 
 
   //mu- PDGCode 13; pi+ PDGCode 211
-  if(step->GetTrack()->GetDynamicParticle()->GetPDGcode() == 211){
+  // if(step->GetTrack()->GetDynamicParticle()->GetPDGcode() == 211){
     auto edep = step->GetTotalEnergyDeposit();
-    
+
+      G4cout << " - Energy deposit " << edep << " at volumeID " << volumeindex << G4endl;
+
       if(1000 <= volumeindex && volumeindex < 1000+DetectorConstruction::ArrayXYSize)
       {
-        fEdep->at(volumeindex-1000)+=edep;
+        fEdep->at(volumeindex-1000) += edep;
+        G4cout << " - Good volume ID! " << G4endl;
       }
-    
 
-  }
-  
+
+  // }
+
 }
 
 

@@ -18,8 +18,8 @@ class DetectorConstruction : public G4VUserDetectorConstruction
   public:
     virtual G4VPhysicalVolume* Construct();
 
-    static const G4int ArrayXSize = 256;
-    static const G4int ArrayYSize = 256;
+    static const G4int ArrayXSize = 50;
+    static const G4int ArrayYSize = 50;
     static const G4int ArrayXYSize = ArrayXSize*ArrayYSize;
 
 private:

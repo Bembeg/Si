@@ -28,13 +28,17 @@ void ActionInitialization::Build() const
 {
   SetUserAction(new PrimaryGeneratorAction);
 
+  // Array for tracking deposited energies
   std::array <G4double, DetectorConstruction::ArrayXYSize>* edepArray;
+
   RunAction* fRunAction = new RunAction;
   edepArray = &fRunAction->fEdep;
   SetUserAction(fRunAction);
 
   auto eventAction = new EventAction;
+  edepArray = &eventAction->fEdep;
   SetUserAction(eventAction);
-  SetUserAction(new SteppingAction(fDetConstruction,eventAction,edepArray));
-}  
+
+  SetUserAction(new SteppingAction(fDetConstruction, eventAction, edepArray));
+}
 

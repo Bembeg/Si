@@ -1,5 +1,4 @@
 #include "RunAction.hh"
-#include "Analysis.hh"
 
 #include <string>
 #include <iostream>
@@ -11,17 +10,18 @@
 #include "G4SystemOfUnits.hh"
 #include "DetectorConstruction.hh"
 #include "G4EmCalculator.hh"
+#include "G4AnalysisManager.hh"
 
 
 RunAction::RunAction()
  : G4UserRunAction()
-{ 
+{
   G4RunManager::GetRunManager()->SetPrintProgress(1);
 
   auto analysisManager = G4AnalysisManager::Instance();
   G4cout << "Using " << analysisManager->GetType() << G4endl;
 
-
+  analysisManager->CreateH1("Eabs", "Eabs", 2500, -0.5, 2499.5);
 
   /*analysisManager->SetVerboseLevel(1);
   analysisManager->SetNtupleMerging(true);
@@ -50,12 +50,12 @@ RunAction::RunAction()
 
 RunAction::~RunAction()
 {
-  delete G4AnalysisManager::Instance();  
+  delete G4AnalysisManager::Instance();
 }
 
 
 void RunAction::BeginOfRunAction(const G4Run* /*run*/)
-{ 
+{
   auto analysisManager = G4AnalysisManager::Instance();
 
 
@@ -65,11 +65,8 @@ void RunAction::BeginOfRunAction(const G4Run* /*run*/)
   }
 
 
-
-  G4String fileName = "Si";
+  G4String fileName = "Si.root";
   analysisManager->OpenFile(fileName);
-
-
 }
 
 
@@ -89,8 +86,8 @@ void RunAction::EndOfRunAction(const G4Run* run)
     {
       outfile << std::endl;
     }
-    outfile << fEdep[i]*1000 << " "; 
-   
+    outfile << fEdep[i]*1000 << " ";
+
 
 
     if (fEdep[i]!=0)
@@ -99,7 +96,7 @@ void RunAction::EndOfRunAction(const G4Run* run)
       //G4cout << G4BestUnit(fEdep[i], "Energy") << G4endl;
     }
 
-    
+
   }
   G4float ratio = (G4float)nonempty/(G4float)DetectorConstruction::ArrayXYSize;
 
